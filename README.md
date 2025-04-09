@@ -1,5 +1,9 @@
 # 🤗🐳 HuggingWhale.AI
 
+<p align="center">
+  <img src="logo/hw-logo.png" width="250" alt="HuggingWhale Logo">
+</p>
+
 Drop your PDF / audio / messy doc → Get structured insights like it’s nothing. Because you could build this yourself... but like, why?
 
 🤖 What is this?

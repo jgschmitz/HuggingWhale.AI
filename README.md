@@ -10,8 +10,8 @@
 Drop your PDF / audio / messy doc → Get structured insights like it’s nothing. Because you could build this yourself... but like, why?<br>
 <br>
 🤖 What is this? <br>
-huggingwhale.ai is your all-in-one, zero-config, emoji-laden, AI wrapper playground that helps you pretend you're doing real machine learning.
-
+huggingwhale.ai is your all-in-one, zero-config, emoji-laden, AI wrapper playground that helps you pretend you're doing real machine learning.<br>
+<Br>
 We took all the hard stuff (RAG, chunking, embeddings, multi-agent orchestration)
 and wrapped it in a giant whale hug. So now, you too can act like an AI savant with minimal effort. 🧠💅
 

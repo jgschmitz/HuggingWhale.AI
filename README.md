@@ -1,5 +1,3 @@
-# 🤗🐳 HuggingWhale.AI
-
 <p align="center">
   <img src="hw-logo.png" width="200" alt="HuggingWhale Logo">
 </p>

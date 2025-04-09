@@ -83,7 +83,7 @@ Output:
 }
 ```
 
-🤝 Contributing
+🤝 Contributing:
 We welcome PRs, feature requests, or just good vibes in our issues.
 
 If you write good code, we might even react with 🐳.

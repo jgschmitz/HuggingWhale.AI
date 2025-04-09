@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="hw-logo.png" width="180" alt="HuggingWhale Logo">
+  <img src="hw-logo.png" width="260" alt="HuggingWhale Logo">
 </p>
 
 <h1 align="center">🤗🐋 HuggingWhale.AI</h1>

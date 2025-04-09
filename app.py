@@ -1,7 +1,9 @@
-from whale_core import parse_file, run_agents
+from whale_core import parser, agents
 
-doc = parse_file("examples/sample_inputs/sample.pdf")
-responses = run_agents(doc, config_path="agents/config.yaml")
+doc = parser.parse_file("examples/sample.pdf")
+chunks = parser.chunk_and_embed(doc)
+agent_cfgs = agents.load_agents("agents/config.yaml")
+responses = agents.run_agents_on_text(agent_cfgs, doc)
 
-for agent, response in responses.items():
-    print(f"{agent} says:\n{response}\n")
+for name, reply in responses.items():
+    print(f"\n🤖 {name} says:\n{reply}")

@@ -52,6 +52,7 @@ or for the sophisticated:
 docker run --rm -it huggingwhale/ai:latest
 🎛️ Configuration (optional, like pants in a Zoom call)
 ```
+```
 rag:
   chunk_size: auto-magical
   embed_model: whale-babbler-v2
@@ -72,6 +73,7 @@ Output:
   "insights": ["Start a cult?", "Buy GPU?", "Call mom."]
 }
 ```
+
 🤝 Contributing
 We welcome PRs, feature requests, or just good vibes in our issues.
 

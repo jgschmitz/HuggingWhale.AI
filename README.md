@@ -7,7 +7,7 @@
 <p align="center"><em>AI That Hugs Your Data</em></p>
 
 <hr>
-Drop your PDF / audio / messy doc → Get structured insights like it’s nothing. Because you could build this yourself... but like, why?
+Drop your PDF / audio / messy doc → Get structured insights like it’s nothing. Because you could build this yourself... but like, why?<br>
 <br>
 🤖 What is this?
 huggingwhale.ai is your all-in-one, zero-config, emoji-laden, AI wrapper playground that helps you pretend you're doing real machine learning.

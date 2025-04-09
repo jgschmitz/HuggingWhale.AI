@@ -8,6 +8,12 @@
 
 <hr>
 
+<p align="center">
+  <a href="https://www.buymeacoffee.com/jgschmitz" target="_blank">
+    <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=jgschmitz&button_colour=FFDD00&font_colour=000000&font_family=Comic&outline_colour=000000&coffee_colour=ffffff" height="50" />
+  </a>
+</p>
+
 </a> <br>
 Drop your PDF / audio / messy doc → Get structured insights like it’s nothing. Because you could build this yourself... but like, why?<br>
 <br>

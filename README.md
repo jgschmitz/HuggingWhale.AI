@@ -71,6 +71,7 @@ Output:
   "summary": "Your notes were unhinged. Here's what we salvaged:",
   "insights": ["Start a cult?", "Buy GPU?", "Call mom."]
 }
+```
 🤝 Contributing
 We welcome PRs, feature requests, or just good vibes in our issues.
 

@@ -1,11 +1,12 @@
 <p align="center">
-  <img src="hw-logo.png" width="200" alt="HuggingWhale Logo">
+  <img src="hw-logo.png" width="180" alt="HuggingWhale Logo">
 </p>
 
 <h1 align="center">🤗🐋 HuggingWhale.AI</h1>
 
 <p align="center"><em>AI That Hugs Your Data</em></p>
 
+<hr>
 Drop your PDF / audio / messy doc → Get structured insights like it’s nothing. Because you could build this yourself... but like, why?
 
 🤖 What is this?

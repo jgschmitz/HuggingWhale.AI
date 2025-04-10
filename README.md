@@ -9,6 +9,14 @@
 <hr>
 
 <p align="center">
+  <img src="https://github.com/jgschmitz/HuggingWhale.AI/raw/main/logo/huggingwhale.png" alt="HuggingWhale Logo" width="250"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/jgschmitz/HuggingWhale.AI/raw/main/HW-workflow.png" alt="HuggingWhale Workflow" width="450"/>
+</p>
+
+<h1 align="center">🤗🐋 HuggingWhale.AI</h1>
+<p align="center"><em>AI That Hugs Your Data</em></p>
+<p align="center">
   <a href="https://www.buymeacoffee.com/jgschmitz" target="_blank">
     <img src="https://img.buymeacoffee.com/button-api/?text=☕+23+coffees+so+far!&emoji=☕&slug=jgschmitz&button_colour=FFDD00&font_colour=000000&font_family=Comic&outline_colour=000000&coffee_colour=ffffff" height="50" />
   </a>

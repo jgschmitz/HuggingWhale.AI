@@ -8,12 +8,6 @@
 
 <hr>
 
-<p align="center">
-  <img src="https://github.com/jgschmitz/HuggingWhale.AI/raw/main/logo/huggingwhale.png" alt="HuggingWhale Logo" width="250"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/jgschmitz/HuggingWhale.AI/raw/main/HW-workflow.png" alt="HuggingWhale Workflow" width="450"/>
-</p>
-
 <h1 align="center">🤗🐋 HuggingWhale.AI</h1>
 <p align="center"><em>AI That Hugs Your Data</em></p>
 <p align="center">

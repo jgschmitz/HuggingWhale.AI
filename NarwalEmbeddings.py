@@ -23,11 +23,11 @@ if hasattr(model, "tokenizer"):
 
 # List of documents
 docs = [
-    "The students studied for their exams.",
-    "Studying hard, the students prepared for their exams.",
-    "The chef cooked a delicious meal.",
-    "The chef cooked the chicken with the vegetables.",
-    "Known for its power and aggression, Mike Tyson's boxing style was feared by many."
+    "Narwhals are known as the unicorns of the sea due to their long spiral tusks.",
+    "A narwhal's tusk is actually an elongated tooth that can grow up to 10 feet long.",
+    "Narwhals live in Arctic waters around Canada, Greenland, and Russia.",
+    "Unlike most whales, narwhals don’t have dorsal fins, which helps them navigate under ice.",
+    "Narwhal tusks have millions of nerve endings, making them incredibly sensitive to temperature and pressure changes."
 ]
 
 # Print sentences

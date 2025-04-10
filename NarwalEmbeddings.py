@@ -11,7 +11,7 @@ os.environ["TRANSFORMERS_NO_ADVISORY_WARNINGS"] = "1"
 os.environ["PYTORCH_NO_ADVISORY_WARNINGS"] = "1"
 
 # MongoDB connection
-client = pymongo.MongoClient("mongodb+srv://jschmitz:slb2021@darkstar.tnhx6.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://user:pass@xxxxx.tnhx6.mongodb.net/?retryWrites=true&w=majority")
 db = client.vector_tests
 
 # Load sentence transformer model

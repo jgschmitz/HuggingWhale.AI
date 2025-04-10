@@ -8,8 +8,6 @@
 
 <hr>
 
-<h1 align="center">🤗🐋 HuggingWhale.AI</h1>
-<p align="center"><em>AI That Hugs Your Data</em></p>
 <p align="center">
   <a href="https://www.buymeacoffee.com/jgschmitz" target="_blank">
     <img src="https://img.buymeacoffee.com/button-api/?text=☕+23+coffees+so+far!&emoji=☕&slug=jgschmitz&button_colour=FFDD00&font_colour=000000&font_family=Comic&outline_colour=000000&coffee_colour=ffffff" height="50" />

@@ -37,8 +37,8 @@ Each chunk is embedded via VoyageAI or OpenAI and stored in MongoDB Atlas Vector
 ### 🔍 4. Hybrid Search
 When the user asks a question, we run vector + keyword search to pull back relevant chunks.
 
-### ✨ 5. RAG Response
-Top matches are sent to GPT-4 to generate a helpful, grounded answer with context.
+### ✨ 5. Answer Generation with OpenAI
+Retrieved chunks are summarized and synthesized using OpenAI GPT-4, which formats a coherent, accurate response tailored to the user's query.
 
 🚀 Features <br>
 Automated Chunking: Utilizes recursive chunking strategies to preserve semantic coherence while respecting token limitations.

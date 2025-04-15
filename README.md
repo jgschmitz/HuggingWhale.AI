@@ -40,34 +40,53 @@ No snooping. No telemetry. No weird terms of service.
 Just warm, consensual AI processing.
 
 🔧 Installation
+Prerequisites
+Python: Ensure you have Python 3.8 or higher installed.
+
+Virtual Environment: It's recommended to use a virtual environment to manage dependencies.​
+
+Setup Steps
+Clone the Repository:
 ```
-git clone https://github.com/your-org/huggingwhale.ai.git
-cd huggingwhale.ai
+git clone https://github.com/jgschmitz/HuggingWhale.AI.git
+cd HuggingWhale.AI
+```
+Create and Activate Virtual Environment:
+```
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+Install Dependencies:
+```
+pip install --upgrade pip
 pip install -r requirements.txt
+```
+Configure Environment Variables:
+Create a .env file in the root directory.
+
+Add your API keys and other configurations:
+```
+OPENAI_API_KEY=your_openai_api_key
+VOYAGE_API_KEY=your_voyage_api_key
+MONGODB_URI=your_mongodb_connection_string
+```
+Run the Application:
+```
 python app.py
 ```
-```
-pip install -r requirements.txt
-python app.py
-```
+Replace app.py with the actual entry point of your application.
 
-or for the sophisticated:
+📁 Project Structure
 
-```
-docker run --rm -it huggingwhale/ai:latest
-🎛️ Configuration (optional, like pants in a Zoom call)
-```
-```
-rag:
-  chunk_size: auto-magical
-  embed_model: whale-babbler-v2
-agents:
-  - name: Therapist
-    tone: Gentle
-  - name: SassyBot
-    tone: Aggressively helpful
-…but seriously, it just works™.
-```
+parser.py: Handles document ingestion and preprocessing.
+
+embedder.py: Manages embedding generation using selected models.
+
+retriever.py: Implements hybrid retrieval logic.
+
+responder.py: Generates responses using LLMs.
+
+app.py: Main application entry point.​
 
 🧪 Example Use Case
 ```

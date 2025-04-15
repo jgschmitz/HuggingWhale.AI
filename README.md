@@ -39,7 +39,7 @@ User-Friendly Interface: Interact through a CLI or web-based interface for real-
 No snooping. No telemetry. No weird terms of service.
 Just warm, consensual AI processing.
 
-🔧 Installation
+🔧 Installation <br>
 Prerequisites
 Python: Ensure you have Python 3.8 or higher installed.
 

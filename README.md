@@ -23,7 +23,7 @@ HuggingWhale.AI is a RAG (Retrieval-Augmented Generation) system built for real-
 
 Here's how the data flows through the whale 🐋:
 
-![Architecture Diagram](docs/huggingwhale-architecture.png)
+![Architecture Diagram](./huggingwhale-architecture.png)
 
 ### 📥 1. Document Ingestion
 User uploads a file → `parser.py` extracts the raw text.

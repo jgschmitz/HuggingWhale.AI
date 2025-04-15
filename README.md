@@ -25,7 +25,7 @@ huggingwhale.ai is your all-in-one, zero-config, emoji-laden, AI wrapper playgro
 We took all the hard stuff (RAG, chunking, embeddings, multi-agent orchestration)
 and wrapped it in a giant whale hug. So now, you too can act like an AI savant with minimal effort. 🧠💅
 
-🚀 Features
+🚀 Features <br>
 Automated Chunking: Utilizes recursive chunking strategies to preserve semantic coherence while respecting token limitations.
 
 Flexible Embeddings: Supports embeddings via Voyage AI or OpenAI.

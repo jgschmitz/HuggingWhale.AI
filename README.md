@@ -17,13 +17,28 @@
 </a> <br>
 HuggingWhale.AI implements a modern Retrieval-Augmented Generation (RAG) pipeline purpose-built for unstructured document understanding and conversational querying. The system combines semantic chunking, vector embeddings, hybrid retrieval, and large language model (LLM) synthesis to deliver accurate and context-aware responses.
 
-Drop your PDF / audio / messy doc → Get structured insights like it’s nothing. <br>
-<br>
-🤖 What is this? <br>
-huggingwhale.ai is your all-in-one, zero-config, emoji-laden, AI wrapper playground that helps you pretend you're doing real machine learning.<br>
-<Br>
-We took all the hard stuff (RAG, chunking, embeddings, multi-agent orchestration)
-and wrapped it in a giant whale hug. So now, you too can act like an AI savant with minimal effort. 🧠💅
+## 🧠 How It Works
+
+HuggingWhale.AI is a RAG (Retrieval-Augmented Generation) system built for real-time, doc-aware LLM interactions.
+
+Here's how the data flows through the whale 🐋:
+
+![Architecture Diagram](docs/huggingwhale-architecture.png)
+
+### 📥 1. Document Ingestion
+User uploads a file → `parser.py` extracts the raw text.
+
+### ✂️ 2. Auto Chunking
+Text is split into semantically meaningful chunks using a recursive chunker.
+
+### 🧠 3. Embedding
+Each chunk is embedded via VoyageAI or OpenAI and stored in MongoDB Atlas Vector Search.
+
+### 🔍 4. Hybrid Search
+When the user asks a question, we run vector + keyword search to pull back relevant chunks.
+
+### ✨ 5. RAG Response
+Top matches are sent to GPT-4 to generate a helpful, grounded answer with context.
 
 🚀 Features <br>
 Automated Chunking: Utilizes recursive chunking strategies to preserve semantic coherence while respecting token limitations.

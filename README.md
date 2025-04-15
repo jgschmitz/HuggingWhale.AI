@@ -26,25 +26,15 @@ We took all the hard stuff (RAG, chunking, embeddings, multi-agent orchestration
 and wrapped it in a giant whale hug. So now, you too can act like an AI savant with minimal effort. 🧠💅
 
 🚀 Features
-🧠 Built-in RAG, Chunking, Embeddings
-Plug in anything: PDFs, .mp3s, transcripts from your ex’s voicemail — we’ll extract structured insights like a clairvoyant librarian.
+Automated Chunking: Utilizes recursive chunking strategies to preserve semantic coherence while respecting token limitations.
 
-🧩 Multi-Agent Playground
-Drag. Drop. React with 😮 when an agent misbehaves.
-Yes, agents can talk to each other. Yes, they gossip.
+Flexible Embeddings: Supports embeddings via Voyage AI or OpenAI.
 
-🌈 No Config Nightmares
-You won’t need YAML therapy after this.
+Hybrid Retrieval: Combines vector similarity search with keyword/category filtering for enhanced relevance.
 
-☁️ Deploy Anywhere
-Works out of the box with:
+LLM Integration: Generates grounded, explainable answers using OpenAI GPT-4.
 
- HuggingFace 🤗
-
- Replicate 🌀
-
- Your sketchy home GPU 🖥️ in a shoebox
-
+User-Friendly Interface: Interact through a CLI or web-based interface for real-time recommendations and insights.​
 🔐 Hug-First Privacy
 No snooping. No telemetry. No weird terms of service.
 Just warm, consensual AI processing.

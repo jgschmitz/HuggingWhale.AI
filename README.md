@@ -15,6 +15,8 @@
 </p>
 
 </a> <br>
+HuggingWhale.AI implements a modern Retrieval-Augmented Generation (RAG) pipeline purpose-built for unstructured document understanding and conversational querying. The system combines semantic chunking, vector embeddings, hybrid retrieval, and large language model (LLM) synthesis to deliver accurate and context-aware responses.
+
 Drop your PDF / audio / messy doc → Get structured insights like it’s nothing. Because you could build this yourself... but like, why?<br>
 <br>
 🤖 What is this? <br>

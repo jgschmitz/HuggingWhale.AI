@@ -2,4 +2,11 @@ openai
 PyPDF2
 emoji
 faiss-cpu
-whalehug==0.0.1  # totally fictional
+langchain
+pymongo
+voyageai
+python-dotenv
+sentence-transformers
+tqdm
+unstructured
+whalehug==0.0.1  # totally fictional and totally awesome

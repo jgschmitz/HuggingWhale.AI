@@ -32,7 +32,7 @@ User uploads a file → `parser.py` extracts the raw text.
 Text is split into semantically meaningful chunks using a recursive chunker.
 
 ### 🧠 3. Embedding
-Each chunk is embedded via VoyageAI or OpenAI and stored in MongoDB Atlas Vector Search.
+Each chunk is embedded via VoyageAI and stored in MongoDB Atlas Vector Search.
 
 ### 🔍 4. Hybrid Search
 When the user asks a question, we run vector + keyword search to pull back relevant chunks.

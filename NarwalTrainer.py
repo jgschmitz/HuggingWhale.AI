@@ -1,4 +1,4 @@
-# NarwalTrainer.py
+# Train the whale! 
 import os
 from pymongo import MongoClient
 from datasets import Dataset

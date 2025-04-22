@@ -1,10 +1,21 @@
 import streamlit as st
 
-provider = st.selectbox("Choose LLM Provider", ["OpenAI", "Voyage"])
-prompt = st.text_area("Your prompt")
+# 🧠 Title
+st.title("🧠 HuggingWhale Agent Chat")
 
-if st.button("Submit"):
-    if provider == "OpenAI":
-        st.write(call_openai(prompt))
-    else:
-        st.write(call_voyage(prompt))
+# 🐳 Prompt input
+prompt = st.text_area("Enter your prompt", height=150)
+
+# ⚙️ LLM selector
+llm_choice = st.radio("Choose your LLM", ["OpenAI", "Voyage"], horizontal=True)
+
+# 🐬 Submit button
+if st.button("Send"):
+    with st.spinner("Thinking..."):
+        if llm_choice == "OpenAI":
+            response = call_openai(prompt)
+        else:
+            response = call_voyage(prompt)
+
+        st.markdown(f"**{llm_choice} says:**")
+        st.write(response)

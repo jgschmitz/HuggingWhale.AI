@@ -1,3 +1,4 @@
+#toggle is just a plugin
 import streamlit as st
 
 # 🧠 Title

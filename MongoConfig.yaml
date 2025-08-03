@@ -1,7 +1,0 @@
-# config/mongodb.yaml
-uri: mongodb+srv://<user>:<password>@<cluster>.mongodb.net
-db: huggingwhale
-collections:
-  - session_metadata
-  - vector_embeddings
-  - user_notes

@@ -1,3 +1,4 @@
+------------------------------------------------------------------------------------
 agents:
   - name: TherapistBot
     personality: "Empathetic, curious"
@@ -8,3 +9,4 @@ agents:
   - name: VCWhale
     personality: "Hype-driven investor"
     prompt: "You're a venture capitalist who only speaks in jargon and metaphors."
+-------------------------------------------------------------------------------------

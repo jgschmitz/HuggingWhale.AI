@@ -140,5 +140,4 @@ Create setup.sh for automated install
 Write tests for NarwalEmbeddings.py
 Enable custom prompt templates via YAML
 Explore lightweight fine-tuning on common use cases
-Create public demo page with ngrok or Hugging Face Spaces
-
+Public demo is here -> https://huggingface.co/spaces/Schmitz005/huggingwhale.ai

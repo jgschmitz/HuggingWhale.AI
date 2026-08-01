@@ -144,33 +144,34 @@ pytest tests/
 
 ## 🌊 Flow
 
-```
-              ┌─────────────────┐
-  PDF / TXT ──▶  parse_file()   │
-  MP3 / WAV   └────────┬────────┘
-                       ▼
-              ┌─────────────────┐
-              │  chunk_text()   │  300-word windows
-              └────────┬────────┘
-                       ▼
-              ┌─────────────────┐
-              │  Voyage embed   │  input_type="document"
-              └────────┬────────┘
-                       ▼
-              ┌─────────────────┐
-              │ MongoDB Atlas   │  chunk + embedding
-              └────────┬────────┘
-                       │
-   User question ──────┤
-                       ▼
-              ┌─────────────────┐
-              │  ReAct loop     │◀── Claude + tool use
-              │                 │      • rag_search   → $vectorSearch
-              │  think → act    │      • document_lookup
-              │    → observe    │      • calculator
-              └────────┬────────┘
-                       ▼
-              Answer + reasoning trace
+```mermaid
+flowchart TD
+    subgraph ingest ["📥 Ingestion"]
+        A["PDF · TXT · MD · Audio"] --> B["parse_file()"]
+        B --> C["chunk_text()<br/>300-word windows"]
+        C --> D["Voyage embed<br/>input_type=document"]
+    end
+
+    D --> E[("MongoDB Atlas<br/>chunk + embedding")]
+
+    subgraph query ["🤖 Query"]
+        Q["User question"] --> R{"ReAct loop<br/>think → act → observe"}
+        R --> OUT["Answer + reasoning trace"]
+    end
+
+    LLM["Claude<br/>native tool use"] -.->|drives| R
+
+    R -->|rag_search| E
+    E -->|"top-k chunks ($vectorSearch)"| R
+    R -->|document_lookup| DOC["Loaded document<br/>keyword + context window"]
+    R -->|calculator| CALC["AST evaluator<br/>whitelisted ops"]
+
+    classDef store fill:#1f6feb,stroke:#0d419d,color:#fff
+    classDef model fill:#8250df,stroke:#6639ba,color:#fff
+    classDef out fill:#1a7f37,stroke:#116329,color:#fff
+    class E store
+    class LLM model
+    class OUT out
 ```
 
 ---

@@ -1,3 +1,4 @@
+# this is basically the app that is on huggingface dynamic app page 
 from whale_core import parser, agents
 import gradio as gr
 

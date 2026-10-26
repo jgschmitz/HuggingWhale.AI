@@ -1,0 +1,4 @@
+[
+  {"query": "What are the support hours?", "expected_document_ids": ["handbook"]},
+  {"query": "How much can I expense for learning materials?", "expected_document_ids": ["handbook"]}
+]

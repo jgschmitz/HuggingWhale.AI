@@ -1,0 +1,16 @@
+{
+  "mongo_uri": "mongodb+srv://REPLACE",
+  "database": "huggingwhale_v2",
+  "s3_bucket": "REPLACE",
+  "s3_region": "us-east-1",
+  "voyage_api_key": "REPLACE",
+  "embedding_model": "voyage-context-4",
+  "dimensions": 1024,
+  "chunk_size": 512,
+  "rerank_model": "rerank-2.5",
+  "llm_api_key": "",
+  "llm_model": "",
+  "api_tokens": [
+    {"token": "REPLACE_WITH_A_LONG_RANDOM_TOKEN", "tenant": "demo", "principal": "jeffery", "admin": true}
+  ]
+}

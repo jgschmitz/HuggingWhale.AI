@@ -1,26 +1,52 @@
-<p align="center">
-  <img src="hw-logo.png" width="260" alt="HuggingWhale Logo">
-</p>
-
-<h1 align="center">🤗🐋 HuggingWhale.AI</h1>
-
-<p align="center"><em>AI That Hugs Your Data</em></p>
-
-<hr>
+<h1 align="center">HuggingWhale.AI</h1>
 
 <p align="center">
-  <a href="https://www.buymeacoffee.com/jgschmitz" target="_blank">
-    <img src="https://img.buymeacoffee.com/button-api/?text=%E2%98%95+buy+me+a+coffee&emoji=%E2%98%95&slug=jgschmitz&button_colour=FFDD00&font_colour=000000&font_family=Comic&outline_colour=000000&coffee_colour=ffffff" height="50" />
-  </a>
+  <code>V2 / OBJECT STORAGE + SEARCHABLE CONTEXT</code>
 </p>
 
-</a> <br>
-HuggingWhale.AI implements a modern Retrieval-Augmented Generation (RAG) pipeline purpose-built for unstructured document understanding and conversational querying. The system combines semantic chunking, vector embeddings, hybrid retrieval, and large language model (LLM) synthesis to deliver accurate and context-aware responses.
+<p align="center">
+  <strong>Hug your data.</strong><br>
+  A shared knowledge service for search, RAG, and agents.
+</p>
 
-## 🧠 How It Works
+<p align="center">
+  <a href="./QUICKSTART.md">Get Started</a> ·
+  <a href="./tech_stack.md">Tech Stack</a> ·
+  <a href="https://www.buymeacoffee.com/jgschmitz">Support the Project</a>
+</p>
 
-HuggingWhale.AI is a RAG (Retrieval-Augmented Generation) system built for real-time, doc-aware LLM interactions.
+---
 
-Here's how the data flows through the whale 🐋:
+HuggingWhale.AI turns documents in Amazon S3 into searchable, source-linked
+context for applications and AI agents.
+
+Voyage AI handles automatic chunking and contextualized embeddings.
+MongoDB Atlas stores the indexed content and combines vector and keyword
+search. Voyage reranking brings the most relevant results forward, while
+optional LLM generation produces answers with numbered source references.
+
+Use it as a search service, a document assistant, or a retrieval API for
+your own agents.
+
+## How It Works
+
+**Prepare knowledge**  
+Upload documents → store originals in S3 → extract text → automatically
+chunk and embed with Voyage → index in Atlas.
+
+**Retrieve and answer**  
+Submit a question → apply tenant and access filters → combine vector and
+keyword results → rerank → return relevant passages or generate an answer
+with sources.
+
+**Operate and improve**  
+Process ingestion through durable jobs, track source revisions, handle
+updates and removals, and collect latency, token usage, and feedback.
+
+S3 holds the canonical files. Atlas serves the searchable content.
+Direct provider integrations keep the pipeline free of LangChain and
+local embedding-model dependencies.
+
+## Architecture
 
 ![Architecture Diagram](./huggingwhale.architecture.png)
